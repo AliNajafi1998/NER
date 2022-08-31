@@ -1,11 +1,11 @@
 # Name Entity Recognition
 
-- [ ] Prepare the data
-- [ ] Prepare the Tokenizer
-- [ ] Prepare the Model
-- [ ] Train the Model
-- [ ] Predict
-- [ ] Evaluate the Model
+- [x] Prepare the data
+- [x] Prepare the Tokenizer
+- [x] Prepare the Model
+- [x] Train the Model
+- [x] Predict
+- [X] Evaluate the Model
  
  
  
