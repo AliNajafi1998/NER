@@ -96,7 +96,9 @@ if __name__ == "__main__":
 
     best_loss = np.inf
     for epoch in range(config.EPOCHS):
-        train_loss = engine.train_model(train_dataloader, model, optimizer, device, scheduler)
+        train_loss = engine.train_model(
+            train_dataloader, model, optimizer, device, scheduler
+        )
         test_loss = engine.evaluate_model(test_dataloader, model, device)
         print(f"Train Loss = {train_loss} Valid Loss = {test_loss}")
         if test_loss < best_loss:
